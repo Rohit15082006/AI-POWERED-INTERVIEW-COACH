@@ -1,0 +1,18 @@
+# Interview Coach RL System - Additional Requirements
+# Add these to your existing requirements.txt
+
+# Core RL dependencies
+pydantic>=2.0.0          # Data validation and serialization
+pydantic-core>=2.0.0     # Pydantic core
+PyYAML>=6.0              # For local openenv validate shim parsing openenv.yaml
+
+# Existing dependencies (already in requirements.txt)
+# nltk (for NLP and sentiment analysis)
+# numpy (for computations)
+
+# Optional: For OpenAI integration
+# openai>=1.0.0          # Uncomment if using baseline.py
+
+# Optional: For advanced features
+# torch>=2.0.0           # For future deep RL implementations (not needed for basic Q-learning)
+# ray[rllib]>=2.0.0      # For distributed training (not needed for basic usage)
